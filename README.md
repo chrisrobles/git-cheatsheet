@@ -20,7 +20,7 @@
   `ssh-add ~/.ssh/id_ed25519`
   or whatever the name of your ssh key is
 4) Copy ssh key
-  Linux: `cat ~/.ssh/id_ed25519.pub | xclip`
+  Linux: `cat ~/.ssh/id_ed25519.pub | xclip -selection clipboard`
   WSL: `cat ~/.ssh/id_ed25519.pub | clip.exe`
 5) Add ssh key to remote repository
    - GitHub
