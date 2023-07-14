@@ -20,9 +20,11 @@
   `ssh-add ~/.ssh/id_ed25519`
   or whatever the name of your ssh key is
 4) Copy ssh key
-  Linux: `cat ~/.ssh/id_ed25519.pub | xclip -selection clipboard`
-  WSL: `cat ~/.ssh/id_ed25519.pub | clip.exe`
-5) Add ssh key to remote repository
+
+    Linux: `cat ~/.ssh/id_ed25519.pub | xclip -selection clipboard`
+   
+    WSL: `cat ~/.ssh/id_ed25519.pub | clip.exe`
+6) Add ssh key to remote repository
    - GitHub
       1. [Go to SSH and GPG keys under "Access" in profile settings](https://github.com/settings/profile)
       2. Paste in ssh key
